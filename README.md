@@ -56,4 +56,4 @@ site/
 2. In repository settings, set GitHub Pages source to `GitHub Actions`.
 3. Keep the workflow on the default branch so the schedule trigger can run.
 
-The workflow is scheduled for `7 1 * * 1-6`, which is `10:07 KST` from Monday to Saturday.
+The workflow is scheduled for `0 1 * * *`, which is `10:00 KST` every day.
