@@ -1,0 +1,56 @@
+assets:
+  - section: 국내
+    display_label: 코스피
+    symbol: KS11
+    decimals: 2
+    sort_order: 10
+  - section: 국내
+    display_label: 코스닥
+    symbol: KQ11
+    decimals: 2
+    sort_order: 20
+  - section: 해외
+    display_label: 다우 산업
+    symbol: DJI
+    decimals: 2
+    sort_order: 10
+  - section: 해외
+    display_label: 나스닥 종합
+    symbol: IXIC
+    decimals: 2
+    sort_order: 20
+  - section: 해외
+    display_label: 상해 종합
+    symbol: SSEC
+    decimals: 2
+    sort_order: 30
+  - section: 해외
+    display_label: 니케이225
+    symbol: N225
+    decimals: 2
+    sort_order: 40
+  - section: 환율
+    display_label: 원/달러
+    symbol: USD/KRW
+    decimals: 2
+    sort_order: 10
+  - section: 환율
+    display_label: 위안/달러
+    symbol: USD/CNY
+    decimals: 3
+    sort_order: 20
+  - section: 상품
+    display_label: 금
+    symbol: GC=F
+    decimals: 2
+    sort_order: 10
+  - section: 상품
+    display_label: 은
+    symbol: SI=F
+    decimals: 2
+    sort_order: 20
+  - section: 상품
+    display_label: WTI
+    symbol: CL=F
+    decimals: 2
+    sort_order: 30

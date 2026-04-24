@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page_title }}</title>
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d8dde6;
+      --up: #d55b4f;
+      --down: #3d78b4;
+      --flat: #7c8798;
+      --missing: #9ca3af;
+      --shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+      color: var(--text);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(245, 246, 248, 0.98)),
+        radial-gradient(circle at top right, rgba(61, 120, 180, 0.08), transparent 28%);
+    }
+
+    .page {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 10px 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1;
+    }
+
+    .summary {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .pill,
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 0.92rem;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .sections {
+      display: grid;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .section-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .section-title {
+      margin: 0 0 16px;
+      font-size: 1.35rem;
+    }
+
+    .item-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .item-card {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      min-height: 138px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 249, 252, 0.96));
+    }
+
+    .item-label {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .item-value {
+      margin-top: 8px;
+      font-size: clamp(1.3rem, 2.4vw, 1.9rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .item-change {
+      margin-top: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .item-meta {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .is-up .item-value,
+    .is-up .item-change {
+      color: var(--up);
+    }
+
+    .is-down .item-value,
+    .is-down .item-change {
+      color: var(--down);
+    }
+
+    .is-flat .item-value,
+    .is-flat .item-change {
+      color: var(--flat);
+    }
+
+    .is-missing .item-value,
+    .is-missing .item-change {
+      color: var(--missing);
+    }
+
+    .archive-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-top: 24px;
+    }
+
+    .archive-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .archive-list a {
+      color: inherit;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      background: #fff;
+    }
+
+    .archive-date {
+      font-weight: 700;
+    }
+
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      .item-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Daily Briefing</p>
+      <h1>전일 시장 요약</h1>
+      <p class="summary">
+        생성 기준일 {{ payload.run_date }}. 최신 시장 기준일 {{ payload.summary.latest_market_date or "없음" }}.
+        {{ payload.summary.note }}
+      </p>
+      <div class="hero-meta">
+        <span class="pill">생성 시각 {{ payload.generated_at }}</span>
+        <span class="pill">정상 {{ payload.summary.successful_items }}</span>
+        <span class="pill">누락 {{ payload.summary.missing_items }}</span>
+      </div>
+      <nav class="nav">
+        <a href="{{ home_href }}">홈</a>
+        <a href="{{ latest_href }}">최신 리포트</a>
+      </nav>
+    </section>
+
+    <section class="sections">
+      {% for section in payload.sections %}
+      <article class="section-card">
+        <h2 class="section-title">{{ section["name"] }}</h2>
+        <div class="item-grid">
+          {% for item in section["items"] %}
+          <div class="item-card {{ item.css_class }}">
+            <div>
+              <div class="item-label">{{ item.label }}</div>
+              <div class="item-value">{{ item.formatted_value }}</div>
+              <div class="item-change">{{ item.change_indicator }} {{ item.formatted_change_pct }}</div>
+            </div>
+            <div class="item-meta">{{ item.as_of_date_display }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+    </section>
+
+    {% if archive_entries %}
+    <section class="archive-card">
+      <h2 class="section-title">아카이브</h2>
+      <ul class="archive-list">
+        {% for entry in archive_entries %}
+        <li>
+          <a href="{{ entry.href }}">
+            <span class="archive-date">{{ entry.run_date }}</span>
+            <span>최신 시장 기준일 {{ entry.latest_market_date or "없음" }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <footer>
+      FinanceDataReader 기반으로 생성되며 최신 페이지와 날짜별 아카이브를 함께 저장합니다.
+    </footer>
+  </main>
+</body>
+</html>

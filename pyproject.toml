@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "daily-finance-briefing"
+version = "0.1.0"
+description = "Generate a daily market summary HTML report using FinanceDataReader."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "finance-datareader==0.9.110",
+  "jinja2>=3.1,<4.0",
+  "pandas>=2.0,<3.0",
+  "pyyaml>=6.0,<7.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.0,<9.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"daily_finance_briefing" = ["templates/*.j2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

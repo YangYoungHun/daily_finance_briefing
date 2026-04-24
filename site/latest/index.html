@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전일 시장 요약 - Latest</title>
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d8dde6;
+      --up: #d55b4f;
+      --down: #3d78b4;
+      --flat: #7c8798;
+      --missing: #9ca3af;
+      --shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+      color: var(--text);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(245, 246, 248, 0.98)),
+        radial-gradient(circle at top right, rgba(61, 120, 180, 0.08), transparent 28%);
+    }
+
+    .page {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 10px 0 8px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1;
+    }
+
+    .summary {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .pill,
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 0.92rem;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .sections {
+      display: grid;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .section-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .section-title {
+      margin: 0 0 16px;
+      font-size: 1.35rem;
+    }
+
+    .item-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .item-card {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      min-height: 138px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 249, 252, 0.96));
+    }
+
+    .item-label {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .item-value {
+      margin-top: 8px;
+      font-size: clamp(1.3rem, 2.4vw, 1.9rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .item-change {
+      margin-top: 10px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .item-meta {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .is-up .item-value,
+    .is-up .item-change {
+      color: var(--up);
+    }
+
+    .is-down .item-value,
+    .is-down .item-change {
+      color: var(--down);
+    }
+
+    .is-flat .item-value,
+    .is-flat .item-change {
+      color: var(--flat);
+    }
+
+    .is-missing .item-value,
+    .is-missing .item-change {
+      color: var(--missing);
+    }
+
+    .archive-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-top: 24px;
+    }
+
+    .archive-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .archive-list a {
+      color: inherit;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      background: #fff;
+    }
+
+    .archive-date {
+      font-weight: 700;
+    }
+
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      .item-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Daily Briefing</p>
+      <h1>전일 시장 요약</h1>
+      <p class="summary">
+        생성 기준일 2026-04-24. 최신 시장 기준일 2026-04-23.
+        각 항목은 자산별 최신 거래일 기준으로 표시됩니다.
+      </p>
+      <div class="hero-meta">
+        <span class="pill">생성 시각 2026-04-24T14:11:16+09:00</span>
+        <span class="pill">정상 11</span>
+        <span class="pill">누락 0</span>
+      </div>
+      <nav class="nav">
+        <a href="../index.html">홈</a>
+        <a href="index.html">최신 리포트</a>
+      </nav>
+    </section>
+
+    <section class="sections">
+      
+      <article class="section-card">
+        <h2 class="section-title">국내</h2>
+        <div class="item-grid">
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">코스피</div>
+              <div class="item-value">6,475.81</div>
+              <div class="item-change">▲ 0.90%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-23</div>
+          </div>
+          
+          <div class="item-card is-down">
+            <div>
+              <div class="item-label">코스닥</div>
+              <div class="item-value">1,174.31</div>
+              <div class="item-change">▼ 0.58%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-23</div>
+          </div>
+          
+        </div>
+      </article>
+      
+      <article class="section-card">
+        <h2 class="section-title">해외</h2>
+        <div class="item-grid">
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">다우 산업</div>
+              <div class="item-value">49,490.03</div>
+              <div class="item-change">▲ 0.69%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-22</div>
+          </div>
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">나스닥 종합</div>
+              <div class="item-value">24,657.57</div>
+              <div class="item-change">▲ 1.64%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-22</div>
+          </div>
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">상해 종합</div>
+              <div class="item-value">4,106.26</div>
+              <div class="item-change">▲ 0.52%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-22</div>
+          </div>
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">니케이225</div>
+              <div class="item-value">59,585.86</div>
+              <div class="item-change">▲ 0.40%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-22</div>
+          </div>
+          
+        </div>
+      </article>
+      
+      <article class="section-card">
+        <h2 class="section-title">환율</h2>
+        <div class="item-grid">
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">원/달러</div>
+              <div class="item-value">1,485.80</div>
+              <div class="item-change">▲ 1.13%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-21</div>
+          </div>
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">위안/달러</div>
+              <div class="item-value">6.821</div>
+              <div class="item-change">▲ 0.05%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-21</div>
+          </div>
+          
+        </div>
+      </article>
+      
+      <article class="section-card">
+        <h2 class="section-title">상품</h2>
+        <div class="item-grid">
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">금</div>
+              <div class="item-value">4,732.50</div>
+              <div class="item-change">▲ 0.73%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-22</div>
+          </div>
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">은</div>
+              <div class="item-value">77.89</div>
+              <div class="item-change">▲ 1.94%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-22</div>
+          </div>
+          
+          <div class="item-card is-up">
+            <div>
+              <div class="item-label">WTI</div>
+              <div class="item-value">92.96</div>
+              <div class="item-change">▲ 0.90%</div>
+            </div>
+            <div class="item-meta">기준일 2026-04-22</div>
+          </div>
+          
+        </div>
+      </article>
+      
+    </section>
+
+    
+
+    <footer>
+      FinanceDataReader 기반으로 생성되며 최신 페이지와 날짜별 아카이브를 함께 저장합니다.
+    </footer>
+  </main>
+</body>
+</html>
