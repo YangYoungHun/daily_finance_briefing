@@ -1,11 +1,11 @@
 {
   "title": "전일 시장 요약",
-  "run_date": "2026-05-25",
-  "generated_at": "2026-05-25T14:15:42+09:00",
+  "run_date": "2026-05-26",
+  "generated_at": "2026-05-26T13:57:30+09:00",
   "summary": {
     "successful_items": 11,
     "missing_items": 0,
-    "latest_market_date": "2026-05-22",
+    "latest_market_date": "2026-05-25",
     "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
   },
   "sections": [
@@ -96,14 +96,14 @@
           "section": "해외",
           "label": "니케이225",
           "symbol": "N225",
-          "value": 63339.0703125,
-          "formatted_value": "63,339.07",
-          "change_pct": 2.6829,
-          "formatted_change_pct": "2.68%",
+          "value": 65158.19140625,
+          "formatted_value": "65,158.19",
+          "change_pct": 2.872,
+          "formatted_change_pct": "2.87%",
           "direction": "up",
           "change_indicator": "▲",
-          "as_of_date": "2026-05-22",
-          "as_of_date_display": "기준일 2026-05-22",
+          "as_of_date": "2026-05-25",
+          "as_of_date_display": "기준일 2026-05-25",
           "status": "ok",
           "css_class": "is-up"
         }
@@ -116,14 +116,14 @@
           "section": "환율",
           "label": "원/달러",
           "symbol": "USD/KRW",
-          "value": 1504.4000244140625,
-          "formatted_value": "1,504.40",
-          "change_pct": 0.3087,
-          "formatted_change_pct": "0.31%",
+          "value": 1512.8299560546875,
+          "formatted_value": "1,512.83",
+          "change_pct": 0.5604,
+          "formatted_change_pct": "0.56%",
           "direction": "up",
           "change_indicator": "▲",
-          "as_of_date": "2026-05-21",
-          "as_of_date_display": "기준일 2026-05-21",
+          "as_of_date": "2026-05-24",
+          "as_of_date_display": "기준일 2026-05-24",
           "status": "ok",
           "css_class": "is-up"
         },
@@ -131,16 +131,16 @@
           "section": "환율",
           "label": "위안/달러",
           "symbol": "USD/CNY",
-          "value": 6.802499771118164,
-          "formatted_value": "6.802",
-          "change_pct": 0.0294,
-          "formatted_change_pct": "0.03%",
-          "direction": "up",
-          "change_indicator": "▲",
-          "as_of_date": "2026-05-21",
-          "as_of_date_display": "기준일 2026-05-21",
+          "value": 6.79449987411499,
+          "formatted_value": "6.794",
+          "change_pct": -0.1176,
+          "formatted_change_pct": "0.12%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-05-24",
+          "as_of_date_display": "기준일 2026-05-24",
           "status": "ok",
-          "css_class": "is-up"
+          "css_class": "is-down"
         }
       ]
     },
@@ -250,30 +250,30 @@
       "section": "해외",
       "label": "니케이225",
       "symbol": "N225",
-      "value": 63339.0703125,
-      "change_pct": 2.6829,
+      "value": 65158.19140625,
+      "change_pct": 2.872,
       "direction": "up",
-      "as_of_date": "2026-05-22",
+      "as_of_date": "2026-05-25",
       "status": "ok"
     },
     {
       "section": "환율",
       "label": "원/달러",
       "symbol": "USD/KRW",
-      "value": 1504.4000244140625,
-      "change_pct": 0.3087,
+      "value": 1512.8299560546875,
+      "change_pct": 0.5604,
       "direction": "up",
-      "as_of_date": "2026-05-21",
+      "as_of_date": "2026-05-24",
       "status": "ok"
     },
     {
       "section": "환율",
       "label": "위안/달러",
       "symbol": "USD/CNY",
-      "value": 6.802499771118164,
-      "change_pct": 0.0294,
-      "direction": "up",
-      "as_of_date": "2026-05-21",
+      "value": 6.79449987411499,
+      "change_pct": -0.1176,
+      "direction": "down",
+      "as_of_date": "2026-05-24",
       "status": "ok"
     },
     {
@@ -346,23 +346,23 @@
     {
       "symbol": "N225",
       "status": "ok",
-      "value": 63339.0703125,
-      "change_pct": 2.6829,
-      "as_of_date": "2026-05-22"
+      "value": 65158.19140625,
+      "change_pct": 2.872,
+      "as_of_date": "2026-05-25"
     },
     {
       "symbol": "USD/KRW",
       "status": "ok",
-      "value": 1504.40002441,
-      "change_pct": 0.3087,
-      "as_of_date": "2026-05-21"
+      "value": 1512.82995605,
+      "change_pct": 0.5604,
+      "as_of_date": "2026-05-24"
     },
     {
       "symbol": "USD/CNY",
       "status": "ok",
-      "value": 6.80249977,
-      "change_pct": 0.0294,
-      "as_of_date": "2026-05-21"
+      "value": 6.79449987,
+      "change_pct": -0.1176,
+      "as_of_date": "2026-05-24"
     },
     {
       "symbol": "GC=F",
@@ -387,6 +387,11 @@
     }
   ],
   "archive_entries": [
+    {
+      "run_date": "2026-05-26",
+      "latest_market_date": "2026-05-25",
+      "href": "archive/2026-05-26/index.html"
+    },
     {
       "run_date": "2026-05-25",
       "latest_market_date": "2026-05-22",
