@@ -1,11 +1,11 @@
 {
   "title": "전일 시장 요약",
-  "run_date": "2026-06-20",
-  "generated_at": "2026-06-20T14:06:01+09:00",
+  "run_date": "2026-06-21",
+  "generated_at": "2026-06-21T14:55:23+09:00",
   "summary": {
     "successful_items": 11,
     "missing_items": 0,
-    "latest_market_date": "2026-06-19",
+    "latest_market_date": "2026-06-21",
     "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
   },
   "sections": [
@@ -131,14 +131,14 @@
           "section": "환율",
           "label": "위안/달러",
           "symbol": "USD/CNY",
-          "value": 6.768099784851074,
-          "formatted_value": "6.768",
-          "change_pct": -0.0074,
-          "formatted_change_pct": "0.01%",
+          "value": 6.764699935913086,
+          "formatted_value": "6.765",
+          "change_pct": -0.0576,
+          "formatted_change_pct": "0.06%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-06-19",
-          "as_of_date_display": "기준일 2026-06-19",
+          "as_of_date": "2026-06-21",
+          "as_of_date_display": "기준일 2026-06-21",
           "status": "ok",
           "css_class": "is-down"
         }
@@ -151,14 +151,14 @@
           "section": "상품",
           "label": "금",
           "symbol": "GC=F",
-          "value": 4172.89990234375,
-          "formatted_value": "4,172.90",
-          "change_pct": -1.2121,
-          "formatted_change_pct": "1.21%",
+          "value": 4224.10009765625,
+          "formatted_value": "4,224.10",
+          "change_pct": -3.0925,
+          "formatted_change_pct": "3.09%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-06-19",
-          "as_of_date_display": "기준일 2026-06-19",
+          "as_of_date": "2026-06-18",
+          "as_of_date_display": "기준일 2026-06-18",
           "status": "ok",
           "css_class": "is-down"
         },
@@ -166,14 +166,14 @@
           "section": "상품",
           "label": "은",
           "symbol": "SI=F",
-          "value": 64.91000366210938,
-          "formatted_value": "64.91",
-          "change_pct": -2.03,
-          "formatted_change_pct": "2.03%",
+          "value": 66.25499725341797,
+          "formatted_value": "66.25",
+          "change_pct": -6.2818,
+          "formatted_change_pct": "6.28%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-06-19",
-          "as_of_date_display": "기준일 2026-06-19",
+          "as_of_date": "2026-06-18",
+          "as_of_date_display": "기준일 2026-06-18",
           "status": "ok",
           "css_class": "is-down"
         },
@@ -181,14 +181,14 @@
           "section": "상품",
           "label": "WTI",
           "symbol": "CL=F",
-          "value": 76.54000091552734,
-          "formatted_value": "76.54",
-          "change_pct": -0.0783,
-          "formatted_change_pct": "0.08%",
+          "value": 76.5999984741211,
+          "formatted_value": "76.60",
+          "change_pct": -0.2474,
+          "formatted_change_pct": "0.25%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-06-19",
-          "as_of_date_display": "기준일 2026-06-19",
+          "as_of_date": "2026-06-18",
+          "as_of_date_display": "기준일 2026-06-18",
           "status": "ok",
           "css_class": "is-down"
         }
@@ -270,40 +270,40 @@
       "section": "환율",
       "label": "위안/달러",
       "symbol": "USD/CNY",
-      "value": 6.768099784851074,
-      "change_pct": -0.0074,
+      "value": 6.764699935913086,
+      "change_pct": -0.0576,
       "direction": "down",
-      "as_of_date": "2026-06-19",
+      "as_of_date": "2026-06-21",
       "status": "ok"
     },
     {
       "section": "상품",
       "label": "금",
       "symbol": "GC=F",
-      "value": 4172.89990234375,
-      "change_pct": -1.2121,
+      "value": 4224.10009765625,
+      "change_pct": -3.0925,
       "direction": "down",
-      "as_of_date": "2026-06-19",
+      "as_of_date": "2026-06-18",
       "status": "ok"
     },
     {
       "section": "상품",
       "label": "은",
       "symbol": "SI=F",
-      "value": 64.91000366210938,
-      "change_pct": -2.03,
+      "value": 66.25499725341797,
+      "change_pct": -6.2818,
       "direction": "down",
-      "as_of_date": "2026-06-19",
+      "as_of_date": "2026-06-18",
       "status": "ok"
     },
     {
       "section": "상품",
       "label": "WTI",
       "symbol": "CL=F",
-      "value": 76.54000091552734,
-      "change_pct": -0.0783,
+      "value": 76.5999984741211,
+      "change_pct": -0.2474,
       "direction": "down",
-      "as_of_date": "2026-06-19",
+      "as_of_date": "2026-06-18",
       "status": "ok"
     }
   ],
@@ -360,33 +360,38 @@
     {
       "symbol": "USD/CNY",
       "status": "ok",
-      "value": 6.76809978,
-      "change_pct": -0.0074,
-      "as_of_date": "2026-06-19"
+      "value": 6.76469994,
+      "change_pct": -0.0576,
+      "as_of_date": "2026-06-21"
     },
     {
       "symbol": "GC=F",
       "status": "ok",
-      "value": 4172.89990234,
-      "change_pct": -1.2121,
-      "as_of_date": "2026-06-19"
+      "value": 4224.10009766,
+      "change_pct": -3.0925,
+      "as_of_date": "2026-06-18"
     },
     {
       "symbol": "SI=F",
       "status": "ok",
-      "value": 64.91000366,
-      "change_pct": -2.03,
-      "as_of_date": "2026-06-19"
+      "value": 66.25499725,
+      "change_pct": -6.2818,
+      "as_of_date": "2026-06-18"
     },
     {
       "symbol": "CL=F",
       "status": "ok",
-      "value": 76.54000092,
-      "change_pct": -0.0783,
-      "as_of_date": "2026-06-19"
+      "value": 76.59999847,
+      "change_pct": -0.2474,
+      "as_of_date": "2026-06-18"
     }
   ],
   "archive_entries": [
+    {
+      "run_date": "2026-06-21",
+      "latest_market_date": "2026-06-21",
+      "href": "archive/2026-06-21/index.html"
+    },
     {
       "run_date": "2026-06-20",
       "latest_market_date": "2026-06-19",
