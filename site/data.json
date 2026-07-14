@@ -1,11 +1,11 @@
 {
   "title": "전일 시장 요약",
-  "run_date": "2026-07-13",
-  "generated_at": "2026-07-13T13:25:25+09:00",
+  "run_date": "2026-07-14",
+  "generated_at": "2026-07-14T12:52:16+09:00",
   "summary": {
     "successful_items": 11,
     "missing_items": 0,
-    "latest_market_date": "2026-07-10",
+    "latest_market_date": "2026-07-13",
     "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
   },
   "sections": [
@@ -16,31 +16,31 @@
           "section": "국내",
           "label": "코스피",
           "symbol": "KS11",
-          "value": 7475.94,
-          "formatted_value": "7,475.94",
-          "change_pct": 2.5238,
-          "formatted_change_pct": "2.52%",
-          "direction": "up",
-          "change_indicator": "▲",
-          "as_of_date": "2026-07-10",
-          "as_of_date_display": "기준일 2026-07-10",
+          "value": 6806.93,
+          "formatted_value": "6,806.93",
+          "change_pct": -8.9488,
+          "formatted_change_pct": "8.95%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-07-13",
+          "as_of_date_display": "기준일 2026-07-13",
           "status": "ok",
-          "css_class": "is-up"
+          "css_class": "is-down"
         },
         {
           "section": "국내",
           "label": "코스닥",
           "symbol": "KQ11",
-          "value": 837.43,
-          "formatted_value": "837.43",
-          "change_pct": 5.4698,
-          "formatted_change_pct": "5.47%",
-          "direction": "up",
-          "change_indicator": "▲",
-          "as_of_date": "2026-07-10",
-          "as_of_date_display": "기준일 2026-07-10",
+          "value": 799.36,
+          "formatted_value": "799.36",
+          "change_pct": -4.5461,
+          "formatted_change_pct": "4.55%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-07-13",
+          "as_of_date_display": "기준일 2026-07-13",
           "status": "ok",
-          "css_class": "is-up"
+          "css_class": "is-down"
         }
       ]
     },
@@ -96,16 +96,16 @@
           "section": "해외",
           "label": "니케이225",
           "symbol": "N225",
-          "value": 68557.7265625,
-          "formatted_value": "68,557.73",
-          "change_pct": 1.2014,
-          "formatted_change_pct": "1.20%",
-          "direction": "up",
-          "change_indicator": "▲",
-          "as_of_date": "2026-07-10",
-          "as_of_date_display": "기준일 2026-07-10",
+          "value": 67242.7265625,
+          "formatted_value": "67,242.73",
+          "change_pct": -1.9181,
+          "formatted_change_pct": "1.92%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-07-13",
+          "as_of_date_display": "기준일 2026-07-13",
           "status": "ok",
-          "css_class": "is-up"
+          "css_class": "is-down"
         }
       ]
     },
@@ -116,29 +116,29 @@
           "section": "환율",
           "label": "원/달러",
           "symbol": "USD/KRW",
-          "value": 1505.9100341796875,
-          "formatted_value": "1,505.91",
-          "change_pct": 0.1703,
-          "formatted_change_pct": "0.17%",
-          "direction": "up",
-          "change_indicator": "▲",
-          "as_of_date": "2026-07-09",
-          "as_of_date_display": "기준일 2026-07-09",
+          "value": 1498.47998046875,
+          "formatted_value": "1,498.48",
+          "change_pct": -0.4934,
+          "formatted_change_pct": "0.49%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-07-12",
+          "as_of_date_display": "기준일 2026-07-12",
           "status": "ok",
-          "css_class": "is-up"
+          "css_class": "is-down"
         },
         {
           "section": "환율",
           "label": "위안/달러",
           "symbol": "USD/CNY",
-          "value": 6.792099952697754,
-          "formatted_value": "6.792",
-          "change_pct": -0.1529,
-          "formatted_change_pct": "0.15%",
+          "value": 6.776599884033203,
+          "formatted_value": "6.777",
+          "change_pct": -0.2282,
+          "formatted_change_pct": "0.23%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-07-09",
-          "as_of_date_display": "기준일 2026-07-09",
+          "as_of_date": "2026-07-12",
+          "as_of_date_display": "기준일 2026-07-12",
           "status": "ok",
           "css_class": "is-down"
         }
@@ -200,20 +200,20 @@
       "section": "국내",
       "label": "코스피",
       "symbol": "KS11",
-      "value": 7475.94,
-      "change_pct": 2.5238,
-      "direction": "up",
-      "as_of_date": "2026-07-10",
+      "value": 6806.93,
+      "change_pct": -8.9488,
+      "direction": "down",
+      "as_of_date": "2026-07-13",
       "status": "ok"
     },
     {
       "section": "국내",
       "label": "코스닥",
       "symbol": "KQ11",
-      "value": 837.43,
-      "change_pct": 5.4698,
-      "direction": "up",
-      "as_of_date": "2026-07-10",
+      "value": 799.36,
+      "change_pct": -4.5461,
+      "direction": "down",
+      "as_of_date": "2026-07-13",
       "status": "ok"
     },
     {
@@ -250,30 +250,30 @@
       "section": "해외",
       "label": "니케이225",
       "symbol": "N225",
-      "value": 68557.7265625,
-      "change_pct": 1.2014,
-      "direction": "up",
-      "as_of_date": "2026-07-10",
+      "value": 67242.7265625,
+      "change_pct": -1.9181,
+      "direction": "down",
+      "as_of_date": "2026-07-13",
       "status": "ok"
     },
     {
       "section": "환율",
       "label": "원/달러",
       "symbol": "USD/KRW",
-      "value": 1505.9100341796875,
-      "change_pct": 0.1703,
-      "direction": "up",
-      "as_of_date": "2026-07-09",
+      "value": 1498.47998046875,
+      "change_pct": -0.4934,
+      "direction": "down",
+      "as_of_date": "2026-07-12",
       "status": "ok"
     },
     {
       "section": "환율",
       "label": "위안/달러",
       "symbol": "USD/CNY",
-      "value": 6.792099952697754,
-      "change_pct": -0.1529,
+      "value": 6.776599884033203,
+      "change_pct": -0.2282,
       "direction": "down",
-      "as_of_date": "2026-07-09",
+      "as_of_date": "2026-07-12",
       "status": "ok"
     },
     {
@@ -311,16 +311,16 @@
     {
       "symbol": "KS11",
       "status": "ok",
-      "value": 7475.94,
-      "change_pct": 2.5238,
-      "as_of_date": "2026-07-10"
+      "value": 6806.93,
+      "change_pct": -8.9488,
+      "as_of_date": "2026-07-13"
     },
     {
       "symbol": "KQ11",
       "status": "ok",
-      "value": 837.43,
-      "change_pct": 5.4698,
-      "as_of_date": "2026-07-10"
+      "value": 799.36,
+      "change_pct": -4.5461,
+      "as_of_date": "2026-07-13"
     },
     {
       "symbol": "DJI",
@@ -346,23 +346,23 @@
     {
       "symbol": "N225",
       "status": "ok",
-      "value": 68557.7265625,
-      "change_pct": 1.2014,
-      "as_of_date": "2026-07-10"
+      "value": 67242.7265625,
+      "change_pct": -1.9181,
+      "as_of_date": "2026-07-13"
     },
     {
       "symbol": "USD/KRW",
       "status": "ok",
-      "value": 1505.91003418,
-      "change_pct": 0.1703,
-      "as_of_date": "2026-07-09"
+      "value": 1498.47998047,
+      "change_pct": -0.4934,
+      "as_of_date": "2026-07-12"
     },
     {
       "symbol": "USD/CNY",
       "status": "ok",
-      "value": 6.79209995,
-      "change_pct": -0.1529,
-      "as_of_date": "2026-07-09"
+      "value": 6.77659988,
+      "change_pct": -0.2282,
+      "as_of_date": "2026-07-12"
     },
     {
       "symbol": "GC=F",
@@ -387,6 +387,11 @@
     }
   ],
   "archive_entries": [
+    {
+      "run_date": "2026-07-14",
+      "latest_market_date": "2026-07-13",
+      "href": "archive/2026-07-14/index.html"
+    },
     {
       "run_date": "2026-07-13",
       "latest_market_date": "2026-07-10",
