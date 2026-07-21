@@ -1,11 +1,11 @@
 {
   "title": "전일 시장 요약",
-  "run_date": "2026-07-20",
-  "generated_at": "2026-07-20T13:31:13+09:00",
+  "run_date": "2026-07-21",
+  "generated_at": "2026-07-21T13:10:56+09:00",
   "summary": {
     "successful_items": 11,
     "missing_items": 0,
-    "latest_market_date": "2026-07-17",
+    "latest_market_date": "2026-07-20",
     "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
   },
   "sections": [
@@ -16,14 +16,14 @@
           "section": "국내",
           "label": "코스피",
           "symbol": "KS11",
-          "value": 6820.6,
-          "formatted_value": "6,820.60",
-          "change_pct": -6.3672,
-          "formatted_change_pct": "6.37%",
+          "value": 6516.27,
+          "formatted_value": "6,516.27",
+          "change_pct": -4.4619,
+          "formatted_change_pct": "4.46%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-07-16",
-          "as_of_date_display": "기준일 2026-07-16",
+          "as_of_date": "2026-07-20",
+          "as_of_date_display": "기준일 2026-07-20",
           "status": "ok",
           "css_class": "is-down"
         },
@@ -31,14 +31,14 @@
           "section": "국내",
           "label": "코스닥",
           "symbol": "KQ11",
-          "value": 791.84,
-          "formatted_value": "791.84",
-          "change_pct": -4.532,
-          "formatted_change_pct": "4.53%",
+          "value": 749.64,
+          "formatted_value": "749.64",
+          "change_pct": -5.3294,
+          "formatted_change_pct": "5.33%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-07-16",
-          "as_of_date_display": "기준일 2026-07-16",
+          "as_of_date": "2026-07-20",
+          "as_of_date_display": "기준일 2026-07-20",
           "status": "ok",
           "css_class": "is-down"
         }
@@ -116,16 +116,16 @@
           "section": "환율",
           "label": "원/달러",
           "symbol": "USD/KRW",
-          "value": 1478.8499755859375,
-          "formatted_value": "1,478.85",
-          "change_pct": -0.4945,
-          "formatted_change_pct": "0.49%",
-          "direction": "down",
-          "change_indicator": "▼",
-          "as_of_date": "2026-07-16",
-          "as_of_date_display": "기준일 2026-07-16",
+          "value": 1487.3900146484375,
+          "formatted_value": "1,487.39",
+          "change_pct": 0.5775,
+          "formatted_change_pct": "0.58%",
+          "direction": "up",
+          "change_indicator": "▲",
+          "as_of_date": "2026-07-19",
+          "as_of_date_display": "기준일 2026-07-19",
           "status": "ok",
-          "css_class": "is-down"
+          "css_class": "is-up"
         },
         {
           "section": "환율",
@@ -133,14 +133,14 @@
           "symbol": "USD/CNY",
           "value": 6.772500038146973,
           "formatted_value": "6.773",
-          "change_pct": 0.0635,
-          "formatted_change_pct": "0.06%",
-          "direction": "up",
-          "change_indicator": "▲",
-          "as_of_date": "2026-07-16",
-          "as_of_date_display": "기준일 2026-07-16",
+          "change_pct": 0.0,
+          "formatted_change_pct": "0.00%",
+          "direction": "flat",
+          "change_indicator": "■",
+          "as_of_date": "2026-07-19",
+          "as_of_date_display": "기준일 2026-07-19",
           "status": "ok",
-          "css_class": "is-up"
+          "css_class": "is-flat"
         }
       ]
     },
@@ -200,20 +200,20 @@
       "section": "국내",
       "label": "코스피",
       "symbol": "KS11",
-      "value": 6820.6,
-      "change_pct": -6.3672,
+      "value": 6516.27,
+      "change_pct": -4.4619,
       "direction": "down",
-      "as_of_date": "2026-07-16",
+      "as_of_date": "2026-07-20",
       "status": "ok"
     },
     {
       "section": "국내",
       "label": "코스닥",
       "symbol": "KQ11",
-      "value": 791.84,
-      "change_pct": -4.532,
+      "value": 749.64,
+      "change_pct": -5.3294,
       "direction": "down",
-      "as_of_date": "2026-07-16",
+      "as_of_date": "2026-07-20",
       "status": "ok"
     },
     {
@@ -260,10 +260,10 @@
       "section": "환율",
       "label": "원/달러",
       "symbol": "USD/KRW",
-      "value": 1478.8499755859375,
-      "change_pct": -0.4945,
-      "direction": "down",
-      "as_of_date": "2026-07-16",
+      "value": 1487.3900146484375,
+      "change_pct": 0.5775,
+      "direction": "up",
+      "as_of_date": "2026-07-19",
       "status": "ok"
     },
     {
@@ -271,9 +271,9 @@
       "label": "위안/달러",
       "symbol": "USD/CNY",
       "value": 6.772500038146973,
-      "change_pct": 0.0635,
-      "direction": "up",
-      "as_of_date": "2026-07-16",
+      "change_pct": 0.0,
+      "direction": "flat",
+      "as_of_date": "2026-07-19",
       "status": "ok"
     },
     {
@@ -311,16 +311,16 @@
     {
       "symbol": "KS11",
       "status": "ok",
-      "value": 6820.6,
-      "change_pct": -6.3672,
-      "as_of_date": "2026-07-16"
+      "value": 6516.27,
+      "change_pct": -4.4619,
+      "as_of_date": "2026-07-20"
     },
     {
       "symbol": "KQ11",
       "status": "ok",
-      "value": 791.84,
-      "change_pct": -4.532,
-      "as_of_date": "2026-07-16"
+      "value": 749.64,
+      "change_pct": -5.3294,
+      "as_of_date": "2026-07-20"
     },
     {
       "symbol": "DJI",
@@ -353,16 +353,16 @@
     {
       "symbol": "USD/KRW",
       "status": "ok",
-      "value": 1478.84997559,
-      "change_pct": -0.4945,
-      "as_of_date": "2026-07-16"
+      "value": 1487.39001465,
+      "change_pct": 0.5775,
+      "as_of_date": "2026-07-19"
     },
     {
       "symbol": "USD/CNY",
       "status": "ok",
       "value": 6.77250004,
-      "change_pct": 0.0635,
-      "as_of_date": "2026-07-16"
+      "change_pct": 0.0,
+      "as_of_date": "2026-07-19"
     },
     {
       "symbol": "GC=F",
@@ -387,6 +387,11 @@
     }
   ],
   "archive_entries": [
+    {
+      "run_date": "2026-07-21",
+      "latest_market_date": "2026-07-20",
+      "href": "archive/2026-07-21/index.html"
+    },
     {
       "run_date": "2026-07-20",
       "latest_market_date": "2026-07-17",
