@@ -1,11 +1,11 @@
 {
   "title": "전일 시장 요약",
-  "run_date": "2026-08-09",
-  "generated_at": "2026-08-09T11:58:18+09:00",
+  "run_date": "2026-08-10",
+  "generated_at": "2026-08-10T12:07:44+09:00",
   "summary": {
     "successful_items": 11,
     "missing_items": 0,
-    "latest_market_date": "2026-08-09",
+    "latest_market_date": "2026-08-07",
     "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
   },
   "sections": [
@@ -116,29 +116,29 @@
           "section": "환율",
           "label": "원/달러",
           "symbol": "USD/KRW",
-          "value": 1407.449951171875,
-          "formatted_value": "1,407.45",
-          "change_pct": -1.0441,
-          "formatted_change_pct": "1.04%",
-          "direction": "down",
-          "change_indicator": "▼",
-          "as_of_date": "2026-08-07",
-          "as_of_date_display": "기준일 2026-08-07",
+          "value": 1422.300048828125,
+          "formatted_value": "1,422.30",
+          "change_pct": 0.0802,
+          "formatted_change_pct": "0.08%",
+          "direction": "up",
+          "change_indicator": "▲",
+          "as_of_date": "2026-08-06",
+          "as_of_date_display": "기준일 2026-08-06",
           "status": "ok",
-          "css_class": "is-down"
+          "css_class": "is-up"
         },
         {
           "section": "환율",
           "label": "위안/달러",
           "symbol": "USD/CNY",
-          "value": 6.737199783325195,
-          "formatted_value": "6.737",
-          "change_pct": -0.1719,
-          "formatted_change_pct": "0.17%",
+          "value": 6.748799800872803,
+          "formatted_value": "6.749",
+          "change_pct": -0.0133,
+          "formatted_change_pct": "0.01%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-08-09",
-          "as_of_date_display": "기준일 2026-08-09",
+          "as_of_date": "2026-08-06",
+          "as_of_date_display": "기준일 2026-08-06",
           "status": "ok",
           "css_class": "is-down"
         }
@@ -260,20 +260,20 @@
       "section": "환율",
       "label": "원/달러",
       "symbol": "USD/KRW",
-      "value": 1407.449951171875,
-      "change_pct": -1.0441,
-      "direction": "down",
-      "as_of_date": "2026-08-07",
+      "value": 1422.300048828125,
+      "change_pct": 0.0802,
+      "direction": "up",
+      "as_of_date": "2026-08-06",
       "status": "ok"
     },
     {
       "section": "환율",
       "label": "위안/달러",
       "symbol": "USD/CNY",
-      "value": 6.737199783325195,
-      "change_pct": -0.1719,
+      "value": 6.748799800872803,
+      "change_pct": -0.0133,
       "direction": "down",
-      "as_of_date": "2026-08-09",
+      "as_of_date": "2026-08-06",
       "status": "ok"
     },
     {
@@ -353,16 +353,16 @@
     {
       "symbol": "USD/KRW",
       "status": "ok",
-      "value": 1407.44995117,
-      "change_pct": -1.0441,
-      "as_of_date": "2026-08-07"
+      "value": 1422.30004883,
+      "change_pct": 0.0802,
+      "as_of_date": "2026-08-06"
     },
     {
       "symbol": "USD/CNY",
       "status": "ok",
-      "value": 6.73719978,
-      "change_pct": -0.1719,
-      "as_of_date": "2026-08-09"
+      "value": 6.7487998,
+      "change_pct": -0.0133,
+      "as_of_date": "2026-08-06"
     },
     {
       "symbol": "GC=F",
@@ -387,6 +387,11 @@
     }
   ],
   "archive_entries": [
+    {
+      "run_date": "2026-08-10",
+      "latest_market_date": "2026-08-07",
+      "href": "archive/2026-08-10/index.html"
+    },
     {
       "run_date": "2026-08-09",
       "latest_market_date": "2026-08-09",
