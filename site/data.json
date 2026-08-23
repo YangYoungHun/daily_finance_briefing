@@ -1,11 +1,11 @@
 {
   "title": "전일 시장 요약",
-  "run_date": "2026-08-22",
-  "generated_at": "2026-08-22T11:10:02+09:00",
+  "run_date": "2026-08-23",
+  "generated_at": "2026-08-23T11:20:02+09:00",
   "summary": {
     "successful_items": 11,
     "missing_items": 0,
-    "latest_market_date": "2026-08-21",
+    "latest_market_date": "2026-08-23",
     "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
   },
   "sections": [
@@ -51,44 +51,44 @@
           "section": "해외",
           "label": "다우 산업",
           "symbol": "DJI",
-          "value": 52759.2109375,
-          "formatted_value": "52,759.21",
-          "change_pct": -1.3165,
-          "formatted_change_pct": "1.32%",
-          "direction": "down",
-          "change_indicator": "▼",
-          "as_of_date": "2026-08-20",
-          "as_of_date_display": "기준일 2026-08-20",
+          "value": 53277.01171875,
+          "formatted_value": "53,277.01",
+          "change_pct": 0.9814,
+          "formatted_change_pct": "0.98%",
+          "direction": "up",
+          "change_indicator": "▲",
+          "as_of_date": "2026-08-21",
+          "as_of_date_display": "기준일 2026-08-21",
           "status": "ok",
-          "css_class": "is-down"
+          "css_class": "is-up"
         },
         {
           "section": "해외",
           "label": "나스닥 종합",
           "symbol": "IXIC",
-          "value": 26067.169921875,
-          "formatted_value": "26,067.17",
-          "change_pct": -1.0023,
-          "formatted_change_pct": "1.00%",
-          "direction": "down",
-          "change_indicator": "▼",
-          "as_of_date": "2026-08-20",
-          "as_of_date_display": "기준일 2026-08-20",
+          "value": 26180.4609375,
+          "formatted_value": "26,180.46",
+          "change_pct": 0.4346,
+          "formatted_change_pct": "0.43%",
+          "direction": "up",
+          "change_indicator": "▲",
+          "as_of_date": "2026-08-21",
+          "as_of_date_display": "기준일 2026-08-21",
           "status": "ok",
-          "css_class": "is-down"
+          "css_class": "is-up"
         },
         {
           "section": "해외",
           "label": "상해 종합",
           "symbol": "SSEC",
-          "value": 3903.720947265625,
-          "formatted_value": "3,903.72",
-          "change_pct": 0.2388,
-          "formatted_change_pct": "0.24%",
+          "value": 3905.202880859375,
+          "formatted_value": "3,905.20",
+          "change_pct": 0.038,
+          "formatted_change_pct": "0.04%",
           "direction": "up",
           "change_indicator": "▲",
-          "as_of_date": "2026-08-20",
-          "as_of_date_display": "기준일 2026-08-20",
+          "as_of_date": "2026-08-21",
+          "as_of_date_display": "기준일 2026-08-21",
           "status": "ok",
           "css_class": "is-up"
         },
@@ -116,14 +116,14 @@
           "section": "환율",
           "label": "원/달러",
           "symbol": "USD/KRW",
-          "value": 1385.0,
-          "formatted_value": "1,385.00",
-          "change_pct": -0.4163,
-          "formatted_change_pct": "0.42%",
+          "value": 1383.9000244140625,
+          "formatted_value": "1,383.90",
+          "change_pct": -0.4954,
+          "formatted_change_pct": "0.50%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-08-21",
-          "as_of_date_display": "기준일 2026-08-21",
+          "as_of_date": "2026-08-22",
+          "as_of_date_display": "기준일 2026-08-22",
           "status": "ok",
           "css_class": "is-down"
         },
@@ -137,8 +137,8 @@
           "formatted_change_pct": "0.16%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-08-21",
-          "as_of_date_display": "기준일 2026-08-21",
+          "as_of_date": "2026-08-23",
+          "as_of_date_display": "기준일 2026-08-23",
           "status": "ok",
           "css_class": "is-down"
         }
@@ -151,14 +151,14 @@
           "section": "상품",
           "label": "금",
           "symbol": "GC=F",
-          "value": 4516.2998046875,
-          "formatted_value": "4,516.30",
-          "change_pct": 0.5992,
-          "formatted_change_pct": "0.60%",
+          "value": 4624.10009765625,
+          "formatted_value": "4,624.10",
+          "change_pct": 2.3869,
+          "formatted_change_pct": "2.39%",
           "direction": "up",
           "change_indicator": "▲",
-          "as_of_date": "2026-08-20",
-          "as_of_date_display": "기준일 2026-08-20",
+          "as_of_date": "2026-08-21",
+          "as_of_date_display": "기준일 2026-08-21",
           "status": "ok",
           "css_class": "is-up"
         },
@@ -166,14 +166,14 @@
           "section": "상품",
           "label": "은",
           "symbol": "SI=F",
-          "value": 68.0260009765625,
-          "formatted_value": "68.03",
-          "change_pct": 3.4868,
-          "formatted_change_pct": "3.49%",
+          "value": 69.46600341796875,
+          "formatted_value": "69.47",
+          "change_pct": 2.1168,
+          "formatted_change_pct": "2.12%",
           "direction": "up",
           "change_indicator": "▲",
-          "as_of_date": "2026-08-20",
-          "as_of_date_display": "기준일 2026-08-20",
+          "as_of_date": "2026-08-21",
+          "as_of_date_display": "기준일 2026-08-21",
           "status": "ok",
           "css_class": "is-up"
         },
@@ -181,16 +181,16 @@
           "section": "상품",
           "label": "WTI",
           "symbol": "CL=F",
-          "value": 87.83000183105469,
-          "formatted_value": "87.83",
-          "change_pct": 2.3302,
-          "formatted_change_pct": "2.33%",
-          "direction": "up",
-          "change_indicator": "▲",
-          "as_of_date": "2026-08-20",
-          "as_of_date_display": "기준일 2026-08-20",
+          "value": 87.05999755859375,
+          "formatted_value": "87.06",
+          "change_pct": -0.8767,
+          "formatted_change_pct": "0.88%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-08-21",
+          "as_of_date_display": "기준일 2026-08-21",
           "status": "ok",
-          "css_class": "is-up"
+          "css_class": "is-down"
         }
       ]
     }
@@ -220,30 +220,30 @@
       "section": "해외",
       "label": "다우 산업",
       "symbol": "DJI",
-      "value": 52759.2109375,
-      "change_pct": -1.3165,
-      "direction": "down",
-      "as_of_date": "2026-08-20",
+      "value": 53277.01171875,
+      "change_pct": 0.9814,
+      "direction": "up",
+      "as_of_date": "2026-08-21",
       "status": "ok"
     },
     {
       "section": "해외",
       "label": "나스닥 종합",
       "symbol": "IXIC",
-      "value": 26067.169921875,
-      "change_pct": -1.0023,
-      "direction": "down",
-      "as_of_date": "2026-08-20",
+      "value": 26180.4609375,
+      "change_pct": 0.4346,
+      "direction": "up",
+      "as_of_date": "2026-08-21",
       "status": "ok"
     },
     {
       "section": "해외",
       "label": "상해 종합",
       "symbol": "SSEC",
-      "value": 3903.720947265625,
-      "change_pct": 0.2388,
+      "value": 3905.202880859375,
+      "change_pct": 0.038,
       "direction": "up",
-      "as_of_date": "2026-08-20",
+      "as_of_date": "2026-08-21",
       "status": "ok"
     },
     {
@@ -260,10 +260,10 @@
       "section": "환율",
       "label": "원/달러",
       "symbol": "USD/KRW",
-      "value": 1385.0,
-      "change_pct": -0.4163,
+      "value": 1383.9000244140625,
+      "change_pct": -0.4954,
       "direction": "down",
-      "as_of_date": "2026-08-21",
+      "as_of_date": "2026-08-22",
       "status": "ok"
     },
     {
@@ -273,37 +273,37 @@
       "value": 6.7118000984191895,
       "change_pct": -0.1592,
       "direction": "down",
-      "as_of_date": "2026-08-21",
+      "as_of_date": "2026-08-23",
       "status": "ok"
     },
     {
       "section": "상품",
       "label": "금",
       "symbol": "GC=F",
-      "value": 4516.2998046875,
-      "change_pct": 0.5992,
+      "value": 4624.10009765625,
+      "change_pct": 2.3869,
       "direction": "up",
-      "as_of_date": "2026-08-20",
+      "as_of_date": "2026-08-21",
       "status": "ok"
     },
     {
       "section": "상품",
       "label": "은",
       "symbol": "SI=F",
-      "value": 68.0260009765625,
-      "change_pct": 3.4868,
+      "value": 69.46600341796875,
+      "change_pct": 2.1168,
       "direction": "up",
-      "as_of_date": "2026-08-20",
+      "as_of_date": "2026-08-21",
       "status": "ok"
     },
     {
       "section": "상품",
       "label": "WTI",
       "symbol": "CL=F",
-      "value": 87.83000183105469,
-      "change_pct": 2.3302,
-      "direction": "up",
-      "as_of_date": "2026-08-20",
+      "value": 87.05999755859375,
+      "change_pct": -0.8767,
+      "direction": "down",
+      "as_of_date": "2026-08-21",
       "status": "ok"
     }
   ],
@@ -325,23 +325,23 @@
     {
       "symbol": "DJI",
       "status": "ok",
-      "value": 52759.2109375,
-      "change_pct": -1.3165,
-      "as_of_date": "2026-08-20"
+      "value": 53277.01171875,
+      "change_pct": 0.9814,
+      "as_of_date": "2026-08-21"
     },
     {
       "symbol": "IXIC",
       "status": "ok",
-      "value": 26067.16992188,
-      "change_pct": -1.0023,
-      "as_of_date": "2026-08-20"
+      "value": 26180.4609375,
+      "change_pct": 0.4346,
+      "as_of_date": "2026-08-21"
     },
     {
       "symbol": "SSEC",
       "status": "ok",
-      "value": 3903.72094727,
-      "change_pct": 0.2388,
-      "as_of_date": "2026-08-20"
+      "value": 3905.20288086,
+      "change_pct": 0.038,
+      "as_of_date": "2026-08-21"
     },
     {
       "symbol": "N225",
@@ -353,40 +353,45 @@
     {
       "symbol": "USD/KRW",
       "status": "ok",
-      "value": 1385.0,
-      "change_pct": -0.4163,
-      "as_of_date": "2026-08-21"
+      "value": 1383.90002441,
+      "change_pct": -0.4954,
+      "as_of_date": "2026-08-22"
     },
     {
       "symbol": "USD/CNY",
       "status": "ok",
       "value": 6.7118001,
       "change_pct": -0.1592,
-      "as_of_date": "2026-08-21"
+      "as_of_date": "2026-08-23"
     },
     {
       "symbol": "GC=F",
       "status": "ok",
-      "value": 4516.29980469,
-      "change_pct": 0.5992,
-      "as_of_date": "2026-08-20"
+      "value": 4624.10009766,
+      "change_pct": 2.3869,
+      "as_of_date": "2026-08-21"
     },
     {
       "symbol": "SI=F",
       "status": "ok",
-      "value": 68.02600098,
-      "change_pct": 3.4868,
-      "as_of_date": "2026-08-20"
+      "value": 69.46600342,
+      "change_pct": 2.1168,
+      "as_of_date": "2026-08-21"
     },
     {
       "symbol": "CL=F",
       "status": "ok",
-      "value": 87.83000183,
-      "change_pct": 2.3302,
-      "as_of_date": "2026-08-20"
+      "value": 87.05999756,
+      "change_pct": -0.8767,
+      "as_of_date": "2026-08-21"
     }
   ],
   "archive_entries": [
+    {
+      "run_date": "2026-08-23",
+      "latest_market_date": "2026-08-23",
+      "href": "archive/2026-08-23/index.html"
+    },
     {
       "run_date": "2026-08-22",
       "latest_market_date": "2026-08-21",
