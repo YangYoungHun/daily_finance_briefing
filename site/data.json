@@ -1,11 +1,11 @@
 {
   "title": "전일 시장 요약",
-  "run_date": "2026-09-08",
-  "generated_at": "2026-09-08T14:30:00+09:00",
+  "run_date": "2026-09-09",
+  "generated_at": "2026-09-09T14:37:08+09:00",
   "summary": {
     "successful_items": 11,
     "missing_items": 0,
-    "latest_market_date": "2026-09-07",
+    "latest_market_date": "2026-09-08",
     "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
   },
   "sections": [
@@ -81,31 +81,31 @@
           "section": "해외",
           "label": "상해 종합",
           "symbol": "SSEC",
-          "value": 3930.115966796875,
-          "formatted_value": "3,930.12",
-          "change_pct": -0.3037,
-          "formatted_change_pct": "0.30%",
-          "direction": "down",
-          "change_indicator": "▼",
-          "as_of_date": "2026-09-04",
-          "as_of_date_display": "기준일 2026-09-04",
-          "status": "ok",
-          "css_class": "is-down"
-        },
-        {
-          "section": "해외",
-          "label": "니케이225",
-          "symbol": "N225",
-          "value": 66399.84375,
-          "formatted_value": "66,399.84",
-          "change_pct": 2.1207,
-          "formatted_change_pct": "2.12%",
+          "value": 3932.698974609375,
+          "formatted_value": "3,932.70",
+          "change_pct": 0.0657,
+          "formatted_change_pct": "0.07%",
           "direction": "up",
           "change_indicator": "▲",
           "as_of_date": "2026-09-07",
           "as_of_date_display": "기준일 2026-09-07",
           "status": "ok",
           "css_class": "is-up"
+        },
+        {
+          "section": "해외",
+          "label": "니케이225",
+          "symbol": "N225",
+          "value": 65269.328125,
+          "formatted_value": "65,269.33",
+          "change_pct": -1.7026,
+          "formatted_change_pct": "1.70%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-09-08",
+          "as_of_date_display": "기준일 2026-09-08",
+          "status": "ok",
+          "css_class": "is-down"
         }
       ]
     },
@@ -116,14 +116,14 @@
           "section": "환율",
           "label": "원/달러",
           "symbol": "USD/KRW",
-          "value": 1345.06005859375,
-          "formatted_value": "1,345.06",
-          "change_pct": -0.7636,
-          "formatted_change_pct": "0.76%",
+          "value": 1343.5699462890625,
+          "formatted_value": "1,343.57",
+          "change_pct": -0.1108,
+          "formatted_change_pct": "0.11%",
           "direction": "down",
           "change_indicator": "▼",
-          "as_of_date": "2026-09-06",
-          "as_of_date_display": "기준일 2026-09-06",
+          "as_of_date": "2026-09-07",
+          "as_of_date_display": "기준일 2026-09-07",
           "status": "ok",
           "css_class": "is-down"
         },
@@ -133,14 +133,14 @@
           "symbol": "USD/CNY",
           "value": 6.7108001708984375,
           "formatted_value": "6.711",
-          "change_pct": -0.122,
-          "formatted_change_pct": "0.12%",
-          "direction": "down",
-          "change_indicator": "▼",
-          "as_of_date": "2026-09-06",
-          "as_of_date_display": "기준일 2026-09-06",
+          "change_pct": 0.0,
+          "formatted_change_pct": "0.00%",
+          "direction": "flat",
+          "change_indicator": "■",
+          "as_of_date": "2026-09-07",
+          "as_of_date_display": "기준일 2026-09-07",
           "status": "ok",
-          "css_class": "is-down"
+          "css_class": "is-flat"
         }
       ]
     },
@@ -240,30 +240,30 @@
       "section": "해외",
       "label": "상해 종합",
       "symbol": "SSEC",
-      "value": 3930.115966796875,
-      "change_pct": -0.3037,
-      "direction": "down",
-      "as_of_date": "2026-09-04",
+      "value": 3932.698974609375,
+      "change_pct": 0.0657,
+      "direction": "up",
+      "as_of_date": "2026-09-07",
       "status": "ok"
     },
     {
       "section": "해외",
       "label": "니케이225",
       "symbol": "N225",
-      "value": 66399.84375,
-      "change_pct": 2.1207,
-      "direction": "up",
-      "as_of_date": "2026-09-07",
+      "value": 65269.328125,
+      "change_pct": -1.7026,
+      "direction": "down",
+      "as_of_date": "2026-09-08",
       "status": "ok"
     },
     {
       "section": "환율",
       "label": "원/달러",
       "symbol": "USD/KRW",
-      "value": 1345.06005859375,
-      "change_pct": -0.7636,
+      "value": 1343.5699462890625,
+      "change_pct": -0.1108,
       "direction": "down",
-      "as_of_date": "2026-09-06",
+      "as_of_date": "2026-09-07",
       "status": "ok"
     },
     {
@@ -271,9 +271,9 @@
       "label": "위안/달러",
       "symbol": "USD/CNY",
       "value": 6.7108001708984375,
-      "change_pct": -0.122,
-      "direction": "down",
-      "as_of_date": "2026-09-06",
+      "change_pct": 0.0,
+      "direction": "flat",
+      "as_of_date": "2026-09-07",
       "status": "ok"
     },
     {
@@ -339,30 +339,30 @@
     {
       "symbol": "SSEC",
       "status": "ok",
-      "value": 3930.1159668,
-      "change_pct": -0.3037,
-      "as_of_date": "2026-09-04"
+      "value": 3932.69897461,
+      "change_pct": 0.0657,
+      "as_of_date": "2026-09-07"
     },
     {
       "symbol": "N225",
       "status": "ok",
-      "value": 66399.84375,
-      "change_pct": 2.1207,
-      "as_of_date": "2026-09-07"
+      "value": 65269.328125,
+      "change_pct": -1.7026,
+      "as_of_date": "2026-09-08"
     },
     {
       "symbol": "USD/KRW",
       "status": "ok",
-      "value": 1345.06005859,
-      "change_pct": -0.7636,
-      "as_of_date": "2026-09-06"
+      "value": 1343.56994629,
+      "change_pct": -0.1108,
+      "as_of_date": "2026-09-07"
     },
     {
       "symbol": "USD/CNY",
       "status": "ok",
       "value": 6.71080017,
-      "change_pct": -0.122,
-      "as_of_date": "2026-09-06"
+      "change_pct": 0.0,
+      "as_of_date": "2026-09-07"
     },
     {
       "symbol": "GC=F",
@@ -387,6 +387,11 @@
     }
   ],
   "archive_entries": [
+    {
+      "run_date": "2026-09-09",
+      "latest_market_date": "2026-09-08",
+      "href": "archive/2026-09-09/index.html"
+    },
     {
       "run_date": "2026-09-08",
       "latest_market_date": "2026-09-07",
