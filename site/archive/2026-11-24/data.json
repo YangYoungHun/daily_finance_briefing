@@ -1,0 +1,389 @@
+{
+  "title": "전일 시장 요약",
+  "run_date": "2026-11-24",
+  "generated_at": "2026-11-24T19:35:17+09:00",
+  "summary": {
+    "successful_items": 11,
+    "missing_items": 0,
+    "latest_market_date": "2026-11-23",
+    "note": "각 항목은 자산별 최신 거래일 기준으로 표시됩니다."
+  },
+  "sections": [
+    {
+      "name": "국내",
+      "items": [
+        {
+          "section": "국내",
+          "label": "코스피",
+          "symbol": "KS11",
+          "value": 4708.54,
+          "formatted_value": "4,708.54",
+          "change_pct": -3.3146,
+          "formatted_change_pct": "3.31%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-23",
+          "as_of_date_display": "기준일 2026-11-23",
+          "status": "ok",
+          "css_class": "is-down"
+        },
+        {
+          "section": "국내",
+          "label": "코스닥",
+          "symbol": "KQ11",
+          "value": 635.45,
+          "formatted_value": "635.45",
+          "change_pct": -1.5844,
+          "formatted_change_pct": "1.58%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-23",
+          "as_of_date_display": "기준일 2026-11-23",
+          "status": "ok",
+          "css_class": "is-down"
+        }
+      ]
+    },
+    {
+      "name": "해외",
+      "items": [
+        {
+          "section": "해외",
+          "label": "다우 산업",
+          "symbol": "DJI",
+          "value": 48147.328125,
+          "formatted_value": "48,147.33",
+          "change_pct": -1.9344,
+          "formatted_change_pct": "1.93%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-20",
+          "as_of_date_display": "기준일 2026-11-20",
+          "status": "ok",
+          "css_class": "is-down"
+        },
+        {
+          "section": "해외",
+          "label": "나스닥 종합",
+          "symbol": "IXIC",
+          "value": 22617.73046875,
+          "formatted_value": "22,617.73",
+          "change_pct": -5.2827,
+          "formatted_change_pct": "5.28%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-20",
+          "as_of_date_display": "기준일 2026-11-20",
+          "status": "ok",
+          "css_class": "is-down"
+        },
+        {
+          "section": "해외",
+          "label": "상해 종합",
+          "symbol": "SSEC",
+          "value": 3533.79296875,
+          "formatted_value": "3,533.79",
+          "change_pct": -1.2249,
+          "formatted_change_pct": "1.22%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-20",
+          "as_of_date_display": "기준일 2026-11-20",
+          "status": "ok",
+          "css_class": "is-down"
+        },
+        {
+          "section": "해외",
+          "label": "니케이225",
+          "symbol": "N225",
+          "value": 56436.6484375,
+          "formatted_value": "56,436.65",
+          "change_pct": -5.0595,
+          "formatted_change_pct": "5.06%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-20",
+          "as_of_date_display": "기준일 2026-11-20",
+          "status": "ok",
+          "css_class": "is-down"
+        }
+      ]
+    },
+    {
+      "name": "환율",
+      "items": [
+        {
+          "section": "환율",
+          "label": "원/달러",
+          "symbol": "USD/KRW",
+          "value": 1344.31005859375,
+          "formatted_value": "1,344.31",
+          "change_pct": 0.7132,
+          "formatted_change_pct": "0.71%",
+          "direction": "up",
+          "change_indicator": "▲",
+          "as_of_date": "2026-11-23",
+          "as_of_date_display": "기준일 2026-11-23",
+          "status": "ok",
+          "css_class": "is-up"
+        },
+        {
+          "section": "환율",
+          "label": "위안/달러",
+          "symbol": "USD/CNY",
+          "value": 6.677000045776367,
+          "formatted_value": "6.677",
+          "change_pct": 0.1575,
+          "formatted_change_pct": "0.16%",
+          "direction": "up",
+          "change_indicator": "▲",
+          "as_of_date": "2026-11-23",
+          "as_of_date_display": "기준일 2026-11-23",
+          "status": "ok",
+          "css_class": "is-up"
+        }
+      ]
+    },
+    {
+      "name": "상품",
+      "items": [
+        {
+          "section": "상품",
+          "label": "금",
+          "symbol": "GC=F",
+          "value": 3515.39990234375,
+          "formatted_value": "3,515.40",
+          "change_pct": -4.6154,
+          "formatted_change_pct": "4.62%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-20",
+          "as_of_date_display": "기준일 2026-11-20",
+          "status": "ok",
+          "css_class": "is-down"
+        },
+        {
+          "section": "상품",
+          "label": "은",
+          "symbol": "SI=F",
+          "value": 41.03499984741211,
+          "formatted_value": "41.03",
+          "change_pct": -7.4078,
+          "formatted_change_pct": "7.41%",
+          "direction": "down",
+          "change_indicator": "▼",
+          "as_of_date": "2026-11-20",
+          "as_of_date_display": "기준일 2026-11-20",
+          "status": "ok",
+          "css_class": "is-down"
+        },
+        {
+          "section": "상품",
+          "label": "WTI",
+          "symbol": "CL=F",
+          "value": 83.9800033569336,
+          "formatted_value": "83.98",
+          "change_pct": 0.9254,
+          "formatted_change_pct": "0.93%",
+          "direction": "up",
+          "change_indicator": "▲",
+          "as_of_date": "2026-11-20",
+          "as_of_date_display": "기준일 2026-11-20",
+          "status": "ok",
+          "css_class": "is-up"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "국내",
+      "label": "코스피",
+      "symbol": "KS11",
+      "value": 4708.54,
+      "change_pct": -3.3146,
+      "direction": "down",
+      "as_of_date": "2026-11-23",
+      "status": "ok"
+    },
+    {
+      "section": "국내",
+      "label": "코스닥",
+      "symbol": "KQ11",
+      "value": 635.45,
+      "change_pct": -1.5844,
+      "direction": "down",
+      "as_of_date": "2026-11-23",
+      "status": "ok"
+    },
+    {
+      "section": "해외",
+      "label": "다우 산업",
+      "symbol": "DJI",
+      "value": 48147.328125,
+      "change_pct": -1.9344,
+      "direction": "down",
+      "as_of_date": "2026-11-20",
+      "status": "ok"
+    },
+    {
+      "section": "해외",
+      "label": "나스닥 종합",
+      "symbol": "IXIC",
+      "value": 22617.73046875,
+      "change_pct": -5.2827,
+      "direction": "down",
+      "as_of_date": "2026-11-20",
+      "status": "ok"
+    },
+    {
+      "section": "해외",
+      "label": "상해 종합",
+      "symbol": "SSEC",
+      "value": 3533.79296875,
+      "change_pct": -1.2249,
+      "direction": "down",
+      "as_of_date": "2026-11-20",
+      "status": "ok"
+    },
+    {
+      "section": "해외",
+      "label": "니케이225",
+      "symbol": "N225",
+      "value": 56436.6484375,
+      "change_pct": -5.0595,
+      "direction": "down",
+      "as_of_date": "2026-11-20",
+      "status": "ok"
+    },
+    {
+      "section": "환율",
+      "label": "원/달러",
+      "symbol": "USD/KRW",
+      "value": 1344.31005859375,
+      "change_pct": 0.7132,
+      "direction": "up",
+      "as_of_date": "2026-11-23",
+      "status": "ok"
+    },
+    {
+      "section": "환율",
+      "label": "위안/달러",
+      "symbol": "USD/CNY",
+      "value": 6.677000045776367,
+      "change_pct": 0.1575,
+      "direction": "up",
+      "as_of_date": "2026-11-23",
+      "status": "ok"
+    },
+    {
+      "section": "상품",
+      "label": "금",
+      "symbol": "GC=F",
+      "value": 3515.39990234375,
+      "change_pct": -4.6154,
+      "direction": "down",
+      "as_of_date": "2026-11-20",
+      "status": "ok"
+    },
+    {
+      "section": "상품",
+      "label": "은",
+      "symbol": "SI=F",
+      "value": 41.03499984741211,
+      "change_pct": -7.4078,
+      "direction": "down",
+      "as_of_date": "2026-11-20",
+      "status": "ok"
+    },
+    {
+      "section": "상품",
+      "label": "WTI",
+      "symbol": "CL=F",
+      "value": 83.9800033569336,
+      "change_pct": 0.9254,
+      "direction": "up",
+      "as_of_date": "2026-11-20",
+      "status": "ok"
+    }
+  ],
+  "signature": [
+    {
+      "symbol": "KS11",
+      "status": "ok",
+      "value": 4708.54,
+      "change_pct": -3.3146,
+      "as_of_date": "2026-11-23"
+    },
+    {
+      "symbol": "KQ11",
+      "status": "ok",
+      "value": 635.45,
+      "change_pct": -1.5844,
+      "as_of_date": "2026-11-23"
+    },
+    {
+      "symbol": "DJI",
+      "status": "ok",
+      "value": 48147.328125,
+      "change_pct": -1.9344,
+      "as_of_date": "2026-11-20"
+    },
+    {
+      "symbol": "IXIC",
+      "status": "ok",
+      "value": 22617.73046875,
+      "change_pct": -5.2827,
+      "as_of_date": "2026-11-20"
+    },
+    {
+      "symbol": "SSEC",
+      "status": "ok",
+      "value": 3533.79296875,
+      "change_pct": -1.2249,
+      "as_of_date": "2026-11-20"
+    },
+    {
+      "symbol": "N225",
+      "status": "ok",
+      "value": 56436.6484375,
+      "change_pct": -5.0595,
+      "as_of_date": "2026-11-20"
+    },
+    {
+      "symbol": "USD/KRW",
+      "status": "ok",
+      "value": 1344.31005859,
+      "change_pct": 0.7132,
+      "as_of_date": "2026-11-23"
+    },
+    {
+      "symbol": "USD/CNY",
+      "status": "ok",
+      "value": 6.67700005,
+      "change_pct": 0.1575,
+      "as_of_date": "2026-11-23"
+    },
+    {
+      "symbol": "GC=F",
+      "status": "ok",
+      "value": 3515.39990234,
+      "change_pct": -4.6154,
+      "as_of_date": "2026-11-20"
+    },
+    {
+      "symbol": "SI=F",
+      "status": "ok",
+      "value": 41.03499985,
+      "change_pct": -7.4078,
+      "as_of_date": "2026-11-20"
+    },
+    {
+      "symbol": "CL=F",
+      "status": "ok",
+      "value": 83.98000336,
+      "change_pct": 0.9254,
+      "as_of_date": "2026-11-20"
+    }
+  ]
+}
